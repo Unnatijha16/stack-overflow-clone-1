@@ -8,7 +8,7 @@ const path = require("path");
 const app = express();
 const router = require("./routers");
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3003;
 
 const db = require("./db");
 db.connect();
